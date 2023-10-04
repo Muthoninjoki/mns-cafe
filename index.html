@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Mn Cafe Menu</title>
+  </head>
+  <body>
+    <section id="overlay">
+      <img src="https://i.postimg.cc/FHJf1fKh/Frame-6.png" alt="MN's Cafe Logo" id="logo">
+      <hr>
+      <form id="mnCafeMenu">
+		<h1>Welcome to MN's Cafe!</h1>
+
+        <section class="drink-type">
+          <label for="drink">What type of bread would you like?</label>
+          <select name="drink" id="drink">
+            <option value="black coffee">Black coffee</option>
+            <option value="tea">Tea</option>
+            <option value="milk">Milk</option>
+            <option value="juice">Juice</option>
+            </select>
+          </select>
+        </section>
+        <hr>
+        
+        <section class="sausages">
+          <label for="amount">How many sausages would you like?</label>
+          <input type="number" name="amount" id="amount">
+        </section>
+        <hr>
+
+        <section class="eggs">
+          <label for="amount">How many eggs would you like?</label>
+          <input type="number" name="amount" id="amount">
+        </section>
+        <hr>
+        
+        <section class="cooked">
+          <label for="doneness">How do you want your eggs cooked</label>
+          <br>
+          <span>Sunny Side Up</span>
+          <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
+          <span>Over Hard</span>
+        </section>
+        <hr>
+        
+        <section class="Extras">
+          <span>What extras would you like?</span>
+          <br>
+          <input type="checkbox" name="topping" id="Baked Beans" value="Baked Beans">
+          <label for="Baked Beans">Baked Beans</label>
+          <input type="checkbox" name="topping" id="tomato" value="tomato">
+          <label for="tomato">Tomato</label>
+          <input type="checkbox" name="topping" id="bacon" value="bacon">
+          <label for="bacon">Bacon</label>
+        </section>
+        <hr>
+        
+        <section class="cheesy">
+          <span>Would you like to add cheese?</span>
+          <br>
+          <input type="radio" name="cheese" id="yes" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="cheese" id="no" value="yes">
+          <label for="no">No</label>
+        </section>
+        <hr>
+       
+        <section class="bread-type">
+          <label for="bread">What type of bread would you like?</label>
+          <select name="bread" id="bread">
+            <option value="brown">Brown</option>
+            <option value="white">White</option>
+          </select>
+        </section>
+        <hr>
+        
+        <section class="sauce-selection">
+          <label for="sauce">What type of sauce would you like?</label>
+          <input list="sauces" id="sauce" name="sauce">
+          <datalist id="sauces">
+            <option value="ketchup"></option>
+            <option value="maple syrup"></option>
+            <option value="honey"></option>
+          </datalist>
+        </section>
+        <hr>
+        
+        <section class="extra-info">
+          <label for="extra">Anything else you want to add?</label>
+          <br>
+          <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+        </section>
+        <hr>
+
+        <section class="submission">
+          <input type="submit" value="Submit">
+        </section>
+      </form>
+    </section>
+
+  <script src="./index.js"></script>
+
+  </body>
+</html>
+

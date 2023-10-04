@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(237, 155, 120);
+    font-family: Rubik, Arial;
+  }
+  
+  form {
+    text-align: center;
+    line-height: 30px;
+    height: 80%;
+    overflow: auto;
+  }
+  
+  form hr {
+    width: 15%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  
+  #overlay {
+    width: 80%;
+    margin: 3% auto;
+    height: 95vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+  }
+  
+  #logo {
+    height: 130px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .toppings label, .cheesy label {
+    margin-right: 25px;
+  }
+  
